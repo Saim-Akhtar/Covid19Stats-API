@@ -15,7 +15,7 @@ npm start
 
  Start with a localhost http://127.0.0.1:8000
 
-- Get stats of all countrines in the world
+- Get stats of all countries in the world
 > /
 
 - Get total world ratio
