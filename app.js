@@ -11,10 +11,11 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 app.use(cors())
 
-const controller=require('./controller')
+
+const router=require('./covid_router')
 
 // Set url
-app.use('/covid19Stats',controller)
+app.use('/',router)
 
 // Error Handling
 app.use((req, res, next) => {

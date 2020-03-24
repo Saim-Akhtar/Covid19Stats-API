@@ -1,6 +1,6 @@
 # Covid19Stats-API
 
-An API wrapper around [Rapid API for Corona Updates](https://rapidapi.com/KishCom/api/covid-19-coronavirus-statistics)
+An API wrapper around [Rapid API for Corona Updates](https://rapidapi.com/astsiatsko/api/coronavirus-monitor)
 
 ## Setup
 
@@ -11,10 +11,18 @@ npm install
 npm start
 ```
 
-## Get A Country's Covid19Stats
+## EndPoints
 
-http://127.0.0.1:8000/covid19Stats?country={Country Name}
+ Start with a localhost http://127.0.0.1:8000
 
-## Get A Complete Data of All Countries
+- Get stats of all countrines in the world
+> /
 
-http://127.0.0.1:8000/covid19Stats
+- Get total world ratio
+> /total_ratio
+
+- Get A country's updated stats
+> /:country
+
+- Get A country's history stats
+> /:country/history
