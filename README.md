@@ -2,6 +2,12 @@
 
 An API wrapper around [Rapid API for Corona Updates](https://rapidapi.com/astsiatsko/api/coronavirus-monitor)
 
+## Deployment On Heroku
+
+Click here to open the deployed link
+
+ **[Node-Covid19](https://node-covid19.herokuapp.com)**
+
 ## Setup
 
 Create a .env file and add your API_KEY
@@ -13,7 +19,7 @@ npm start
 
 ## EndPoints
 
- Start with a localhost http://127.0.0.1:8000
+ Deployed Link *[https://node-covid19.herokuapp.com](https://node-covid19.herokuapp.com)*
 
 - Get stats of all countries in the world
 > /
