@@ -2,7 +2,7 @@ const fetch=require('node-fetch')
 
 module.exports={
     total_world_ratio:async(req,res,next)=>{
-        let url='https://coronavirus-monitor.p.rapidapi.com/coronavirus/world_total_stat.php'
+        let url='https://coronavirus-monitor.p.rapidapi.com/coronavirus/worldstat.php'
         console.log(url)
         try {
             const response=await fetch(url,{
@@ -48,7 +48,7 @@ module.exports={
     },
     country_stat:async(req,res,next)=>{
         const country= req.params.country
-        let url='https://coronavirus-monitor.p.rapidapi.com/coronavirus/latest_stat_by_country_name.php?country='+country
+        let url='https://coronavirus-monitor.p.rapidapi.com/coronavirus/latest_stat_by_country.php?country='+country
         console.log(url)
         try {
             const response=await fetch(url,{
